@@ -2,3 +2,110 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Navbar Elements */
+
+#Navbar {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flexbox;
+  border-bottom: 1px solid white;
+}
+
+#Navbar-name {
+  color: white;
+  font-weight: 100;
+}
+
+#Navbar-name:hover {
+  color: hotpink;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#Navbar-surename {
+  margin-left: 50px;
+}
+
+#Navbar-div-left {
+  float: left;
+}
+
+#Navbar-div-right {
+  float: right;
+  padding-right: 50px;
+  padding-top: 35px;
+}
+
+#Navbar-div-center {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+#navbar-portfolio {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+#navbar-portfolio:hover {
+  color: hotpink;
+}
+
+.links a {
+  font-size: 20px;
+  color: hotpink;
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+
+.links a:hover {
+  color: white;
+}
+
+ /* Media Queries */
+
+ @media screen and (max-width: 650px) {
+  #navbar-portfolio{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  #Navbar-image{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #Navbar-name{
+    font-size: 20px;
+  }
+  .links a {
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+  .links a {
+    margin: 5px;
+  }
+
+}
+
+@media screen and (max-width: 330px) {
+ 
+  #Navbar-div-right {
+    padding-right: 20px;
+  }
+}
+
