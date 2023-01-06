@@ -15,7 +15,7 @@ body {
   height: 100px;
   background-color: black;
   display: flexbox;
-  border-bottom: 1px solid white;
+  border-bottom: 5px solid white;
 }
 
 #Navbar-name {
@@ -71,6 +71,117 @@ body {
   color: white;
 }
 
+/* About me section */
+
+.About-me-div {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  top: 17%;
+}
+
+.About-me-div-banner {
+  width: 100%;
+  height: 650px;
+  background-image: url('../public/about-me-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: blur(5px);
+}
+
+.about-me-header {
+  margin: 0;
+  padding-top: 50px;
+}
+
+.underline {
+  width: 280px;
+  height: 5px;  
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+#about-me-wrapper {
+ display: flex;
+}
+
+.about-me-content {
+  width: 45%;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.about-me-para-header {
+  font-size: 35px;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: hotpink;
+  margin-bottom: 0;
+}
+
+.underline-2 {
+  width: 160px;
+  height: 3px;  
+  background-color: hotpink;
+  margin: auto;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+
+.about-me-para {
+  font-size: 23px;
+  font-family: 'Segoe UI';
+  letter-spacing: 3.5px;
+  word-spacing: 1px;
+  color: whitesmoke;
+}
+
+/* Skills Section  */
+
+#skills-section {
+  width: 100%;
+  height: 160px;
+  background-color: black;
+
+}
+
+.skills-wrapper {
+  display: flex;
+}
+
+.skills-content {
+width: 12%;
+height: 140px;
+background-color: aquamarine;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+.skills-image {
+ 
+}
+
+/* Colors + Fonts */
+
+.white-color {
+  color: white;
+}
+
+.oragne-color {
+  color: orange;
+}
+
+.aqua-color {
+  color: aquamarine;
+}
  /* Media Queries */
 
  @media screen and (max-width: 650px) {
