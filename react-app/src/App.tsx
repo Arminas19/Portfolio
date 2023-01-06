@@ -14,7 +14,7 @@ function App() {
             </div>
             <div id='Navbar-div-center'>
               <div>
-                <img id='Navbar-image' src="logo192.png" alt="Navbar image" width='50' height='50'/>
+                <img id='Navbar-image' src="logo1.png" alt="Navbar image" width='50' height='50'/>
                 <h3 id='navbar-portfolio'> PORTFOLIO WEBSITE </h3>
               </div>
             </div>
