@@ -150,7 +150,7 @@ body {
   width: 100%;
   min-height: 170px;
   background-color: black;
-
+  border-top: 5px solid white;
 }
 
 .skills-wrapper {
