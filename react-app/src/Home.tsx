@@ -33,25 +33,25 @@ export default function Home() {
         <div id='skills-section'>
             <div className='skills-wrapper'>
                 <div className='skills-content'>
-                <img className='skills-image' src="logo192.png" alt="skills image" width='145' height='145'/>
+                    <img className='skills-image' src="logo192.png" alt="skills image" width='105' height='105'/>
                 </div>
                 <div className='skills-content'>
-                    {/* JavaScript */}
+                    <img className='skills-image' src="javascript-logo-updated.png" alt="skills image" width='105' height='105'/>
                 </div>
                 <div className='skills-content'>
-                    {/* JQuery */}
+                    <img className='skills-image' src="jquery-logo-updated.png" alt="skills image" width='105' height='105'/>
                 </div>
                 <div className='skills-content'>
-                    {/* python */}
+                    <img className='skills-image' src="python-logo-updated.png" alt="skills image" width='105' height='105'/>
                 </div>
                 <div className='skills-content'>
-                    {/* Django */}
+                    <img className='skills-image' src="django-logo-updated.png" alt="skills image" width='105' height='105'/>
                 </div>
                 <div className='skills-content'>
-                    {/* CSS */}
+                    <img className='skills-image' src="css-logo-updated.png" alt="skills image" width='105' height='105'/>
                 </div>
                 <div className='skills-content'>
-                    {/* Bootstrap */}
+                    <img className='skills-image' src="bootstrap-logo-updated.png" alt="skills image" width='105' height='105'/>
                 </div>
             </div>
         </div>
