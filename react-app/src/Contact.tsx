@@ -1,9 +1,7 @@
-import React from 'react';
-import './App.css';
-
 export default function Contact() {
-  return (
-    <div className='App'>
-    </div>
-  );
+return (
+  <div className="contact-container">
+    
+  </div>
+);
 };

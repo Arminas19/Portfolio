@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Contact from './Contact';
 
 export default function Home() {
     return (
@@ -165,6 +166,14 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
+        <div className='project-title-container'>
+                <div className='project-title-div'>
+                    <h1 className='project-title'> Contact</h1>
+                </div>
+        </div>
+
+        <Contact />
         </>
     );
 };
