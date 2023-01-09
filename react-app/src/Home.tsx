@@ -151,15 +151,15 @@ export default function Home() {
             <div className='open-to-work-container'>
                 <div className='open-to-work-content'>
                     <h2> Open To Work - Locations </h2>
-                    <p> I am available to work in Dublin, Kildare, partcly in Meath and remotly  
+                    <p className='open-to-work-para'> I am available to work in Dublin, Kildare, partcly in Meath and remotly  
                     </p>
-                    <p> I am open to working in new location outside of the listed ones above. if need relocationg for a job i will consider it 
+                    <p className='open-to-work-para'> I am open to working in new location outside of the listed ones above. if need relocationg for a job i will consider it 
                         as a valuable opertunity for me.
                     </p>
                 </div>
                 <div className='open-to-work-content'>
                     <h2> Full-Stack Developer <br/><span> What can I do? </span> </h2>
-                    <p> I am a full-stack developer capable of creating database's, planning out UI designs and implementing them onto a website using 
+                    <p className='open-to-work-para'> I am a full-stack developer capable of creating database's, planning out UI designs and implementing them onto a website using 
                         React, JavaScript, TypeScript, HTML, CSS, Python / Django, firebase, Bootstrap and more
                     </p>
                 </div>
