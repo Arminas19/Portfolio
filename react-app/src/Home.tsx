@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Contact from './Contact';
+import Contact from './components/Contact';
 
 export default function Home() {
     return (
