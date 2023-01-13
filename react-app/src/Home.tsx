@@ -167,9 +167,9 @@ export default function Home() {
             </div>
         </div>
 
-        <div className='project-title-container'>
-                <div className='project-title-div'>
-                    <h1 className='project-title'> Contact</h1>
+        <div className='contact-title-container'>
+                <div className='contact-title-div'>
+                    <h1 className='contact-title'> Contact</h1>
                 </div>
         </div>
 
