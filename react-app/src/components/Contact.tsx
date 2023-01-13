@@ -34,8 +34,8 @@ export default function Contact() {
         <p> <i className="fa fa-paper-plane"></i>armeska14@gmail.com </p>
         <p> <i className="fa fa-phone-square"></i>+353 89 478 7029 </p>
         <div className='social-icons'>
-          <a href="https://www.linkedin.com/in/arminas-aleinikovas-0baa18220/"><i className='fab fa-linkedin'></i></a>
-          <a href=""><i className="fa fa-home"></i></a>
+          <a href="https://www.linkedin.com/in/arminas-aleinikovas-0baa18220/" target='_blank'><i className='fab fa-linkedin'></i></a>
+          <a href="#Top"><i className="fa fa-home"></i></a>
           <a href=""><i className="fa fa-user"></i></a>
           <a href="Cover Letter Arminas Aleinikovas" download><i className="fa fa-file-powerpoint-o"></i></a>
         </div>

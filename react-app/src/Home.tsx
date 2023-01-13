@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 export default function Home() {
     return (
         <>
+        <div id='Top'></div>
         <div className='About-me-div-banner'></div>
         <div className='About-me-div'>
             <h1 className='aqua-color about-me-header'> LITTLE ABOUT ME </h1>
