@@ -1,2 +1,2 @@
 To Do List:
-2. Create a landing page with a hero section With a few buttons going to my portfolio page or contact form.
+1. Replace the current skills section with a New skills section, on that section specify what languages / tools / technologies you use 

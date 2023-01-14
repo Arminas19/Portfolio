@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
 import  Contact  from './components/Contact';
 import  Home  from './Home';
 import LandingPage from './LandingPage';
@@ -22,8 +22,8 @@ function App() {
             <div id='Navbar-div-right'>
               <div className='links'>
 
-                <Link to='/Home' > Home </Link>
-                <Link to='/' > Intro </Link>
+                <NavLink to='/Home' > Home </NavLink>
+                <NavLink to='/' > Intro </NavLink>
               </div>
             </div>
           </nav>
