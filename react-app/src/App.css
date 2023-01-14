@@ -8,6 +8,71 @@ body {
   background-color: #151320;
 }
 
+/* Line break */
+
+.line-break {
+  text-align: center;
+  color: white;
+  position: relative;
+  }
+  
+  .line-break::before{
+    content: '';
+    height: 2px;
+    width: 50vw;
+    background-color: aquamarine;
+    ;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+  }
+  
+  .line-break::after{
+    content: '';
+    height: 2px;
+    width: 50vw;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+  }
+
+  .line-break2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    }
+    
+    .line-break2::before{
+      content: '';
+      height: 2px;
+      width: 50vw;
+      background-color: #ff004f;
+      ;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      z-index: -2;
+    }
+    
+    .line-break2::after{
+      content: '';
+      height: 2px;
+      width: 50vw;
+      background-color: #ff004f;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      z-index: -2;
+    }
+  
+  .line-break-word {
+    background-color: #151320;
+    padding: 0 20px;
+  }
+
 /* Colors + Fonts ------------------------------------------------------------*/
 
 .white-color {
@@ -314,8 +379,7 @@ font-family: 'Poppins', sans-serif;
 /* Open To Work Section ---------------------------------------------------------------------------------------------------------------------------*/
 
 #open-to-work-section-div {
-  margin-top: 150px;
-  margin-bottom: 100px;
+  margin-top: 100px;
   background-color: #2bdce3;
   width: 100%;
   height: 200px;
@@ -350,47 +414,11 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* Contact Form Section -------------------------------------------------- */
-.contact-title-container {
-  padding: 100px;
-  background-color: #151320;
-}
-
-.contact-title-div {
-width: 100%;
-height: 45px;
-position: relative;
-}
-
-.contact-title-div::after, .contact-title-div::before {
-  content: '';
-  position: absolute;
-  margin: auto;
-  height: 2px;
-  background-color: #2bdce3;
-  width: 45%;
-  top: 45%;
-}
-
-.contact-title-div::after {
-  left: 0;
-}
-
-.contact-title-div::before {
-  right: 0;
-}
-
-.contact-title {
-color: white;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-}
 
 #contact {
   width: 100%;
   text-align: start;
-  height: 600px;
+  height: 400px;
   color: white;
 }
 

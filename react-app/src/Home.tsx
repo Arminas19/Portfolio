@@ -61,11 +61,8 @@ export default function Home() {
             </div>
         </div>
 
-            <div className='project-title-container'>
-                <div className='project-title-div'>
-                    <h1 className='project-title'> Projects</h1>
-                </div>
-            </div>
+        <h1 className='line-break' style={{marginTop: '100px', marginBottom: '100px'}}><span className='line-break-word'> Projects </span> </h1>
+
         <div id='project-container'>
 
             <div className='cards'>
@@ -149,6 +146,9 @@ export default function Home() {
             </div>
         </div>
 
+        <h1 className='line-break2' style={{marginBottom: '100px', marginTop: '150px'}}><span className='line-break-word'> Contact </span> </h1>
+        <Contact />
+
         <div id='open-to-work-section-div'>
             <div className='open-to-work-container'>
                 <div className='open-to-work-content'>
@@ -166,15 +166,7 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-        </div>
-
-        <div className='contact-title-container'>
-                <div className='contact-title-div'>
-                    <h1 className='contact-title'> Contact</h1>
-                </div>
-        </div>
-
-        <Contact />
+        </div>        
         </>
     );
 };
