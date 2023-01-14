@@ -33,14 +33,16 @@ body {
 }
 
 #Navbar-name {
+  margin-top: 4px;
   color: white;
   font-weight: 100;
+  transition: transform 0.3s;
 }
 
 #Navbar-name:hover {
   color: hotpink;
-  font-weight: bold;
   cursor: pointer;
+  transform: translateY(-2px);
 }
 
 #Navbar-surename {
@@ -510,6 +512,16 @@ form .btn2 {
   }
 }
 
+@media screen and (max-width: 750px) {
+  #navbar-portfolio{
+    display: none;
+  }
+ 
+ .portfolio-link{
+   display: none;
+  }
+ }
+
 @media screen and (max-width: 676px) {
   .about-me-para {
     font-size: 17px;
@@ -530,12 +542,6 @@ form .btn2 {
   .contact-title-div::after, .contact-title-div::before {
     width: 32%;
   }
-}
-
-@media screen and (max-width: 650px) {
- #navbar-portfolio{
-   display: none;
- }
 }
 
 @media screen and (max-width: 604px) {
