@@ -605,6 +605,13 @@ form .btn2 {
   }
 }
 
+@media screen and (max-width: 514px) {
+  .form-right{
+  flex-basis: 55%;
+  margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 488px) {
   #Navbar-image{
     display: none;
@@ -624,6 +631,18 @@ form .btn2 {
 
   .contact-title-div::after, .contact-title-div::before {
     display: none;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .form-right{
+    flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+  #contact {
+    margin-bottom: 350px;
   }
 }
 
@@ -665,6 +684,12 @@ form .btn2 {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .form-right{
+    flex-basis: 45%;
+    }
+}
+
 @media screen and (max-width: 390px) {
   .links a {
     margin: 5px;
@@ -685,6 +710,10 @@ form .btn2 {
   .about-me-para-header {
     font-size: 30px;
   }
+}
+
+@media screen and (max-width: 380px) {
+  
 }
 
 @media screen and (max-width: 370px) {
