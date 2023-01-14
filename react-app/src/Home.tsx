@@ -18,7 +18,7 @@ export default function Home() {
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <p className='about-me-para'> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                         sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                         sint occaecat cupidatat non proident, sunt in.
                     </p>
                 </div>
                 <div className='about-me-content'>
@@ -29,7 +29,7 @@ export default function Home() {
                     </p>
                     <p className='about-me-para'>
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        sint occaecat cupidatat non proident, sunt in.
                     </p>
                 </div>
             </div>
