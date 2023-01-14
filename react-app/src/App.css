@@ -479,7 +479,7 @@ form .btn2 {
 
 @media screen and (max-width: 1200px) {
   #open-to-work-section-div {
-    height: 250px;
+    height: 270px;
   }
 }
 
@@ -495,7 +495,7 @@ form .btn2 {
   }
 
   #open-to-work-section-div {
-    height: 270px;
+    height: 300px;
   }
 }
 
@@ -537,7 +537,7 @@ form .btn2 {
   }
 
   #open-to-work-section-div {
-    height: 300px;
+    height: 350px;
   }
 
   .project-title-div::after, .project-title-div::before {
@@ -551,7 +551,7 @@ form .btn2 {
 
 @media screen and (max-width: 604px) {
   #open-to-work-section-div {
-    height: 350px;
+    height: 400px;
   }
 
   .about-me-para {
@@ -587,7 +587,7 @@ form .btn2 {
   }
 
   #open-to-work-section-div {
-    height: 390px;
+    height: 460px;
   }
 
   .project-title-div::after, .project-title-div::before {
@@ -606,7 +606,7 @@ form .btn2 {
   }
 
   #open-to-work-section-div {
-    height: 430px;
+    height: 480px;
   }
 
   .about-me-para {
@@ -668,7 +668,7 @@ form .btn2 {
   }
 
   #open-to-work-section-div {
-    height: 500px;
+    height: 560px;
   }
 }
 
@@ -678,7 +678,7 @@ form .btn2 {
   }
 
   #open-to-work-section-div {
-    height: 590px;
+    height: 620px;
   }
 
   .about-me-para-header {
