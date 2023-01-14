@@ -10,13 +10,12 @@
 
 /* Hero Section */
 
-.hero-container {
-}
 
 .hero-content {
     width: 75%;
     padding-left: 100px;
     padding-top: 100px;
+    z-index: 2000;
 }
 
 .hero-span {
@@ -80,22 +79,33 @@
 
 .btn-2:hover {
     text-decoration: none;
-    background-color: #fff;
+    background-color: #000;
     border: 2px solid #fff;
-    color: #000;
+    color: #fff;
 }
 
 /* Animation */
 
 #landingPageApp {
-	z-index: 1;
 	background: linear-gradient(-45deg, purple, black, black,  purple);
 	background-size: 400% 400%;
 	width: 100%;
 	height: 100vh;
 	animation: animate 15s ease infinite;
+    z-index: -1000;
 }
 
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 @media screen and (max-width: 768px) {
     #landingPageApp {
@@ -120,16 +130,3 @@
         font-size: 50px;
     }
 }
-
-@keyframes animate {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
