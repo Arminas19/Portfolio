@@ -176,14 +176,34 @@ body {
   padding-bottom: 2px;
   margin: 10px;
   font-weight: 600;
+  position: relative;
 }
 
 .links a.active {
   font-size: 20px;
+  position: relative;
+  color: white;
 }
 
 .links a:hover {
   color: white;
+}
+
+/* New Links */
+
+.links a::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #2bdce3;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.links a:hover::after {
+  width: 100%;
 }
 
 /* About me section --------------------------------------------------------*/
