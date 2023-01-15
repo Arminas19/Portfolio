@@ -73,6 +73,35 @@ body {
     padding: 0 20px;
   }
 
+  .line-break3 {
+    text-align: center;
+    color: white;
+    position: relative;
+    }
+    
+    .line-break3::before{
+      content: '';
+      height: 2px;
+      width: 50vw;
+      background-color: #ff004f;
+      ;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      z-index: -2;
+    }
+    
+    .line-break3::after{
+      content: '';
+      height: 2px;
+      width: 50vw;
+      background-color: #ff004f;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      z-index: -2;
+    }
+
 /* Colors + Fonts ------------------------------------------------------------*/
 
 .white-color {
@@ -243,26 +272,22 @@ body {
 
 #skills-section {
   width: 100%;
-  min-height: 170px;
+  min-height: 250px;
   background-color: #151320;
-  border-top: 5px solid white;
-}
-
-.skills-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+  padding-top: 70px;
 }
 
 .skills-content {
-width: 190px;
-height: 140px;
-background-color: none;
-margin: 0 auto;
-margin-top: 10px;
+height: 180px;
+margin-top: 7px;
+background-color: #ff004f;
+border-radius: 20px;
+color: white;
 }
 
-.skills-image {
-  margin-top: 20px;
+.skills-header {
+  color: white;
+  margin-bottom: 60px;
 }
 
 /* Project Section ------------------------------------------------------*/
