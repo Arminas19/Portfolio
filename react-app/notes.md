@@ -1,2 +1,4 @@
 To Do List:
-1. Replace the current skills section with a New skills section, on that section specify what languages / tools / technologies you use 
+1. Add projects to project section from github
+2. Add para + headers to about me section
+3. Add a More about me section below the project section.
