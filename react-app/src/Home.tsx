@@ -112,7 +112,7 @@ export default function Home() {
                 <div className='cards'>
                     <div className='card card1'>
                         <div className='card-container'>
-                            <img className='project-image' src="" alt="project image" />
+                            <img className='project-image' src="CreativeDesign.png" alt="project image" />
                         </div>
                         <div className='card-details'>
                             <h3> Creative Designs </h3>
@@ -126,7 +126,7 @@ export default function Home() {
 
                     <div className='card card2'>
                         <div className='card-container'>
-                            <img className='project-image' src="" alt="project image" />
+                            <img className='project-image' src="T&C.png" alt="project image" />
                         </div>
                         <div className='card-details'>
                             <h3> Thoirn & Company Website </h3>
@@ -141,7 +141,7 @@ export default function Home() {
 
                     <div className='card card3'>
                         <div className='card-container'>
-                            <img className='project-image' src="about-me-image.jpg" alt="project image" />
+                            <img className='project-image' src="memoryGame.png" alt="project image" />
                         </div>
                         <div className='card-details'>
                             <h3> Memory Game Website </h3>
@@ -155,7 +155,7 @@ export default function Home() {
 
                     <div className='card card4'>
                         <div className='card-container'>
-                            <img className='project-image' src="about-me-image.jpg" alt="project image" />
+                            <img className='project-image' src="WD.png" alt="project image" />
                         </div>
                         <div className='card-details'>
                             <h3> Whiskey Drop Web Page </h3>
@@ -170,7 +170,7 @@ export default function Home() {
 
                     <div className='card card5'>
                         <div className='card-container'>
-                            <img className='project-image' src="about-me-image.jpg" alt="project image" />
+                            <img className='project-image' src="React-Apps.PNG" alt="project image" />
                         </div>
                         <div className='card-details'>
                             <h3> 2 Mini ReactJS Projects </h3>
@@ -186,7 +186,7 @@ export default function Home() {
 
                     <div className='card card6'>
                         <div className='card-container'>
-                            <img className='project-image' src="about-me-image.jpg" alt="project image" />
+                            <img className='project-image' src="Cuda.png" alt="project image" />
                         </div>
                         <div className='card-details'>
                             <h3> Currently Working On </h3>
