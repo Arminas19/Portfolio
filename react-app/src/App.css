@@ -8,6 +8,24 @@ body {
   background-color: #151320;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, white);
+  /* background-color: white; */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #00c6ff);
+  /* background-color: #00c6ff; */
+}
+
+
 /* Line break */
 
 .line-break {
@@ -535,6 +553,7 @@ margin-top: 90px;
   width: 100%;
   height: 250px;
   margin-top: 50px;
+  overflow-y: scroll;
 }
 
 .MAMPD-para{
