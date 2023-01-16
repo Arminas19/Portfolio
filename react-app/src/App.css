@@ -537,7 +537,6 @@ margin-top: 90px;
   background-color: #1c1b29;
   width: 100%;
   height: 300px;
-
 }
 
 .More-About-Me-Para-Div{
@@ -545,6 +544,7 @@ margin-top: 90px;
   width: 100%;
   height: 300px;
   text-align: center;
+  overflow-y: scroll;
 }
 
 .More-About-Me-Para2-Div{
@@ -586,7 +586,19 @@ margin-top: 90px;
 }
 
 .MAMPD-button {
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #2bdce3;
+  width: 130px;
+  height: 50px;
   cursor: pointer;
+  color: #262626;
+}
+
+.MAMPD-button:hover {
+  background-color: #1c1b29;
+  border: solid #2bdce3;
+  color: white;
 }
 /* Contact Form Section -------------------------------------------------- */
 

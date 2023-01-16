@@ -234,8 +234,8 @@ export default function Home() {
                                     It has survived not only five centuries, but also the leap into electronic typesetting, 
                                     remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
                                     sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                                    Aldus PageMaker including versions of Lorem Ipsum.
-                                    <button className='MAMPD-button'> Full GitHUb </button>
+                                    Aldus PageMaker including versions of Lorem Ipsum.<br/>
+                                    <button className='MAMPD-button'> Full GitHub </button>
                                 </p>
                             </div>
                         </div>
