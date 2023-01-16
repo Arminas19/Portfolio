@@ -375,6 +375,20 @@ font-family: 'Poppins', sans-serif;
   clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
 }
 
+.card-button {
+border-radius: 5px;
+background-color: #2bdce3;
+width: 180px;
+height: 50px;
+cursor: pointer;
+color: #262626;
+}
+
+.card-button:hover {
+  background-color: #ca36fb;
+  color: white;
+}
+
 .project-image {
   width: 100%;
   display: block;
@@ -433,6 +447,7 @@ font-family: 'Poppins', sans-serif;
   line-height: 30px;
   font-weight: 400;
 }
+
 
 /* Open To Work Section ---------------------------------------------------------------------------------------------------------------------------*/
 
