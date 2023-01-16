@@ -102,6 +102,35 @@ body {
       z-index: -2;
     }
 
+    .line-break4 {
+      text-align: center;
+      color: white;
+      position: relative;
+      }
+      
+      .line-break4::before{
+        content: '';
+        height: 2px;
+        width: 50vw;
+        background-color: #2bdce3;
+        ;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        z-index: -2;
+      }
+      
+      .line-break4::after{
+        content: '';
+        height: 2px;
+        width: 50vw;
+        background-color: #2bdce3;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: -2;
+      }
+
 /* Colors + Fonts ------------------------------------------------------------*/
 
 .white-color {
@@ -218,19 +247,10 @@ body {
 .About-me-div-banner {
   width: 100%;
   height: 800px;
-  background-image: url('../public/about-me-image.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  filter: blur(3px);
-}
-
-.About-me-div-banner {
-  width: 100%;
-  height: 800px;
   background: linear-gradient(-45deg, darkblue,   lightblue, #2bdce3,  darkblue);
 	background-size: 400% 400%;
   animation: animate 10s ease infinite;
+  filter: blur(1px);
 }
 
 .about-me-header {
@@ -486,6 +506,35 @@ color: #262626;
   font-size: 23px;
 }
 
+/* More About Me Section  ------------------------------------------------*/
+
+#More-About-Me-Section {
+background-color: none;
+width: 100%;
+height: 600px;
+margin-top: 90px;
+}
+
+.More-About-Me-Image-Div {
+  background-color: #1c1b29;
+  width: 100%;
+  height: 300px;
+
+}
+
+.More-About-Me-Para-Div{
+  background-color: #1c1b29;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.More-About-Me-Para2-Div{
+  background-color: #1c1b29;
+  width: 100%;
+  height: 250px;
+  margin-top: 50px;
+}
 /* Contact Form Section -------------------------------------------------- */
 
 #contact {
@@ -601,6 +650,12 @@ form .btn2 {
 
   #open-to-work-section-div {
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #More-About-Me-Section {
+    height: 850px;
   }
 }
 

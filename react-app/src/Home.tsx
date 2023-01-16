@@ -200,7 +200,32 @@ export default function Home() {
                 </div>
             </div>
 
-            <h1 className='line-break2' style={{ marginBottom: '100px', marginTop: '150px' }}><span className='line-break-word'> Contact </span> </h1>
+            <h1 className='line-break4' style={{ marginTop: '100px' }}><span className='line-break-word'> About Me </span> </h1>
+
+            <div id='More-About-Me-Section'>
+                <div className='container'>
+                    <div className="row">
+                        <div className="col-xs-12 col-md-5 col-lg-4">
+                            <div className='More-About-Me-Image-Div'>
+
+                            </div>
+                        </div>
+                        <div className="col-xs-12 col-md-7 col-lg-8">
+                            <div className='More-About-Me-Para-Div'>
+
+                            </div>
+                        </div>
+                        <div className="col-12">
+                            <div className='More-About-Me-Para2-Div'>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h1 className='line-break2' style={{ marginBottom: '100px', marginTop: '130px' }}><span className='line-break-word'> Contact </span> </h1>
             <Contact />
 
             <div id='open-to-work-section-div'>
