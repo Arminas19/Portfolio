@@ -25,9 +25,9 @@ export default function Home() {
                         <h2 className='about-me-para-header'> Coding </h2>
                         <div className='underline-2'> </div>
                         <p className='about-me-para'> I began my coding journey in a Computer Science course at Blackrock Further Education Institute,
-                        where I studied Java, HTML, CSS, and JavaScript, and learned about algorithms and data structures.
-                        I then studied software development at Code Institute, where I learned Python, Flask, Django, Bootstrap, and more.
-                        Currently, I am self-teaching myself Firebase and React and plan to learn Redux and Tailwind too.
+                            where I studied Java, HTML, CSS, and JavaScript, and learned about algorithms and data structures.
+                            I then studied software development at Code Institute, where I learned Python, Flask, Django, Bootstrap, and more.
+                            Currently, I am self-teaching myself Firebase and React and plan to learn Redux and Tailwind too.
                         </p>
                     </div>
                 </div>
@@ -207,17 +207,36 @@ export default function Home() {
                     <div className="row">
                         <div className="col-xs-12 col-md-5 col-lg-4">
                             <div className='More-About-Me-Image-Div'>
-
+                                <img src="logo512.png" alt="profile-picture" width='300px' height='300px' />
                             </div>
                         </div>
                         <div className="col-xs-12 col-md-7 col-lg-8">
                             <div className='More-About-Me-Para-Div'>
-
+                                <h3 className='MAMPD-header1'>Title Here</h3>
+                                <p className='MAMPD-para'>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                                    Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className='More-About-Me-Para2-Div'>
-
+                            <h2 className='MAMPD-header2'>Title Here</h2>
+                            <p className='MAMPD-para2'>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a <span>galley of type and </span> scrambled it to make a type specimen book. 
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                                    Aldus PageMaker including versions of Lorem Ipsum.
+                                    <button className='MAMPD-button'> Full GitHUb </button>
+                                </p>
                             </div>
                         </div>
                     </div>
