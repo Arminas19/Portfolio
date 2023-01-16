@@ -12,24 +12,22 @@ export default function Home() {
                 <div className='underline'> </div>
                 <div id='about-me-wrapper'>
                     <div className='about-me-content'>
-                        <h2 className='about-me-para-header'> Section 1 </h2>
+                        <h2 className='about-me-para-header'>Careers </h2>
                         <div className='underline-2'> </div>
-                        <p className='about-me-para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <p className='about-me-para'> I'm a young Individual, 21 years old. I haven't had many jobs but in the ones I did have I tried working my very best.
                         </p>
-                        <p className='about-me-para'> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                            sint occaecat cupidatat non proident, sunt in.
+                        <p className='about-me-para'> I worked part-time at Macdonald's while still attending my Secondary School (6th year).
+                            I worked with a friend's dad as a carpet fitter assistant during 3rd year of Secondary school (Part-Time)
+                            and for my 5th year of secondary school I worked with my dad as a 'groundworker'.
                         </p>
                     </div>
                     <div className='about-me-content'>
-                        <h2 className='about-me-para-header'> Section 2 </h2>
+                        <h2 className='about-me-para-header'> Coding </h2>
                         <div className='underline-2'> </div>
-                        <p className='about-me-para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <p className='about-me-para'>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                            sint occaecat cupidatat non proident, sunt in.
+                        <p className='about-me-para'> I began my coding journey in a Computer Science course at Blackrock Further Education Institute,
+                        where I studied Java, HTML, CSS, and JavaScript, and learned about algorithms and data structures.
+                        I then studied software development at Code Institute, where I learned Python, Flask, Django, Bootstrap, and more.
+                        Currently, I am self-teaching myself Firebase and React and plan to learn Redux and Tailwind too.
                         </p>
                     </div>
                 </div>
@@ -192,9 +190,9 @@ export default function Home() {
                         </div>
                         <div className='card-details'>
                             <h3> Currently Working On </h3>
-                            <p>I'm currently working on a Website with many different designs and styles to showcase what I can do. 
-                                Some Web pages use APIs to display certain data on a user's screen. 
-                                f you want to check out this website please click the repo button down below. 
+                            <p>I'm currently working on a Website with many different designs and styles to showcase what I can do.
+                                Some Web pages use APIs to display certain data on a user's screen.
+                                f you want to check out this website please click the repo button down below.
                             </p>
                             <a href='https://github.com/Arminas19/Web-pages' target='_blank'> <button className='card-button'>  GitHub </button> </a>
                         </div>
