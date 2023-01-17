@@ -206,36 +206,38 @@ export default function Home() {
                 <div className='container'>
                     <div className="row">
                         <div className="col-xs-12 col-md-5 col-lg-4">
-                            <div className='More-About-Me-Image-Div'>
-                                <img src="logo512.png" alt="profile-picture" width='300px' height='300px' />
-                            </div>
+                            <img className='img-fluid More-About-Me-Image-Div ' src="about-me-image.jpg" alt="profile-picture"/>
                         </div>
                         <div className="col-xs-12 col-md-7 col-lg-8">
                             <div className='More-About-Me-Para-Div'>
-                                <h3 className='MAMPD-header1'>Title Here</h3>
+                                <h3 className='MAMPD-header1'>Seeking Career Change</h3>
                                 <p className='MAMPD-para'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                                    Aldus PageMaker including versions of Lorem Ipsum.
+                                    I am a Junior Software Developer seeking a career change.
+                                    In my spare time, I enjoy creating new projects and expanding
+                                    my coding knowledge and skills through learning new tools and languages.
+                                    Presently, I am searching for a front-end junior role or a full-stack
+                                    position in a medium-sized company or startup.
+                                    As a front-end developer, my ideal role would be
+                                    creating projects utilizing HTML, CSS, JavaScript, React, and Bootstrap.
+                                    As a Full-stack developer, I would be interested in working with
+                                    Python, Django, JavaScript, HTML, CSS, and Bootstrap. Additionally,
+                                    I would be excited about an opportunity to work on back-end development using either Python or Java.
                                 </p>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className='More-About-Me-Para2-Div'>
-                            <h2 className='MAMPD-header2'>Title Here</h2>
-                            <p className='MAMPD-para2'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a <span>galley of type and </span> scrambled it to make a type specimen book. 
-                                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                                    Aldus PageMaker including versions of Lorem Ipsum.<br/>
-                                    <button className='MAMPD-button'> Full GitHub </button>
+                                <h2 className='MAMPD-header2'>Check Me Out</h2>
+                                <p className='MAMPD-para2'>
+                                    As a Junior Software Developer, my primary focus is on creating high-quality code
+                                    and continuously improving my skills. My GitHub account, Arminas19,
+                                    showcases some of my recent projects and serves as a portfolio of my work.
+                                    Outside of coding, I enjoy staying up-to-date with the latest technologies and trends in the industry.
+                                    I am also an avid gamer, and in my free time, I enjoy playing video games, both on my own and with friends.
+                                    I also love to read and watch science fiction and action-adventure movies. Additionally,
+                                    I enjoy traveling and experiencing different cultures, and I am always looking for new adventures and opportunities
+                                    to learn and grow.<br />
+                                    <a href='https://github.com/Arminas19' target='_blank'> <button className='MAMPD-button'>  Full GitHub </button> </a>
                                 </p>
                             </div>
                         </div>

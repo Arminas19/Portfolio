@@ -545,7 +545,6 @@ margin-top: 90px;
   width: 100%;
   height: 300px;
   text-align: center;
-  overflow-y: scroll;
   border-radius: 6px;
 }
 
@@ -553,9 +552,8 @@ margin-top: 90px;
   text-align: start;
   background-color: #1c1b29;
   width: 100%;
-  height: 250px;
+  height: 300px;
   margin-top: 50px;
-  overflow-y: scroll;
   border-radius: 6px;
 }
 
@@ -711,6 +709,16 @@ form .btn2 {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .More-About-Me-Para-Div{
+    overflow-y: scroll;
+  }
+
+  .More-About-Me-Para2-Div{
+    overflow-y: scroll;
+  }
+}
+
 @media screen and (max-width: 876px) {
   .about-me-content {
     height: 570px;
@@ -724,6 +732,12 @@ form .btn2 {
 @media screen and (max-width: 768px) {
   #More-About-Me-Section {
     height: 850px;
+  }
+  .More-About-Me-Para-Div{
+    margin-top: 30px;
+  }
+  #More-About-Me-Section {
+    margin-bottom: 200px;
   }
 }
 
