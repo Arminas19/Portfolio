@@ -206,7 +206,7 @@ export default function Home() {
                 <div className='container'>
                     <div className="row">
                         <div className="col-xs-12 col-md-5 col-lg-4">
-                            <img className='img-fluid More-About-Me-Image-Div ' src="me2.PNG" alt="profile-picture"/>
+                            <img className='img-fluid More-About-Me-Image-Div' src="me2.PNG" alt="profile-picture"/>
                         </div>
                         <div className="col-xs-12 col-md-7 col-lg-8">
                             <div className='More-About-Me-Para-Div'>
