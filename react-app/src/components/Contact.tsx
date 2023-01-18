@@ -38,7 +38,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/arminas-aleinikovas-0baa18220/" target='_blank'><i className='fab fa-linkedin'></i></a>
             <a href="#Top"><i className="fa fa-home"></i></a>
             <a href="/"><i className="fa fa-user"></i></a>
-            <a href="Cover Letter Arminas Aleinikovas" download><i className="fa fa-file-powerpoint-o"></i></a>
+            <a href="Resume.docx" download><i className="fa fa-file-powerpoint-o"></i></a>
           </div>
           <a href="Resume.docx"  download className='btn btn2'>Download CV</a>
           </div>
