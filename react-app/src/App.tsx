@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, NavLink, Link } from 'react-router-dom';
 import  Contact  from './components/Contact';
 import  Home  from './Home';
 import LandingPage from './LandingPage';
@@ -16,7 +16,7 @@ function App() {
             <div id='Navbar-div-center'>
               <div>
                 <img id='Navbar-image' src="logo1.png" alt="Navbar" width='50' height='50'/>
-                <a href='/Home' className='portfolio-link' style={{textDecoration:'none'}}><h3 id='navbar-portfolio'> PORTFOLIO WEBSITE</h3></a>
+                <Link to='/Home' className='portfolio-link' style={{textDecoration:'none'}}><h3 id='navbar-portfolio'> PORTFOLIO WEBSITE</h3></Link>
               </div>
             </div>
             <div id='Navbar-div-right'>

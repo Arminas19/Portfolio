@@ -1,5 +1,6 @@
 import React from 'react';
 import './landingPage.css';
+import { Link } from 'react-router-dom';
 
 export default function LandingPage() {
   return (
@@ -17,7 +18,7 @@ export default function LandingPage() {
 
                 <div className='button-container'>
                   <div>
-                    <a className='hero-a btn-1' href="/Home"> Home </a>
+                    <Link className='hero-a btn-1' to="/Home"> Home </Link>
                   </div>
                   <div>
                     <a className='hero-a btn-2' href="Resume.docx" download> Resume </a>
