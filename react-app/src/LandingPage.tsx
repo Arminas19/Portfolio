@@ -1,8 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './landingPage.css';
 
 export default function LandingPage() {
+
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/Home');
+  }
   return (
     <>
       <body>
@@ -19,7 +25,7 @@ export default function LandingPage() {
 
                 <div className='button-container'>
                   <div>
-                    <NavLink className='hero-a btn-1' to="/Home"> Home </NavLink>
+                    <a className='hero-a btn-1' href='' onClick={handleNavigate}> Home </a>
                   </div>
                   <div>
                     <a className='hero-a btn-2' href="Resume.docx" download> Resume </a>
