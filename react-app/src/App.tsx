@@ -16,7 +16,7 @@ function App() {
             <div id='Navbar-div-center'>
               <div>
                 <img id='Navbar-image' src="logo1.png" alt="Navbar" width='50' height='50'/>
-                <Link to='/Home' className='portfolio-link' style={{textDecoration:'none'}}><h3 id='navbar-portfolio'> PORTFOLIO WEBSITE</h3></Link>
+                <a href='/Home' className='portfolio-link' style={{textDecoration:'none'}}><h3 id='navbar-portfolio'> PORTFOLIO WEBSITE</h3></a>
               </div>
             </div>
             <div id='Navbar-div-right'>

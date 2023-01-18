@@ -18,7 +18,7 @@ export default function LandingPage() {
 
                 <div className='button-container'>
                   <div>
-                    <Link className='hero-a btn-1' to="/Home"> Home </Link>
+                    <a className='hero-a btn-1' href="/Home"> Home </a>
                   </div>
                   <div>
                     <a className='hero-a btn-2' href="Resume.docx" download> Resume </a>
