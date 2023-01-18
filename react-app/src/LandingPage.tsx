@@ -1,14 +1,9 @@
 import React from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import Home from './Home';
 import './landingPage.css';
 
 export default function LandingPage() {
-
-  const navigate = useNavigate();
-
-  const handleNavigate = () => {
-    navigate('/Home');
-  }
   return (
     <>
       <body>
@@ -19,13 +14,11 @@ export default function LandingPage() {
                 <h1 className='hero-h1'> Junior Web Developer</h1>
                 <p className='banner-para'> Pivoting my career towards Software Development is an exciting process.
                   At this present time I’m working as a freelancer with a senior Developer.
-                  If you would like to know more about my current position, please feel free to contact me.
-                  
+                  If you would like to know more about my current position, please feel free to contact me.  
                 </p>
-
                 <div className='button-container'>
                   <div>
-                    <a className='hero-a btn-1' href='' onClick={handleNavigate}> Home </a>
+                    <NavLink className='hero-a btn-1' to='/Home'> Home </NavLink>
                   </div>
                   <div>
                     <a className='hero-a btn-2' href="Resume.docx" download> Resume </a>
